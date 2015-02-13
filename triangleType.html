@@ -6,33 +6,35 @@
     <script src="js/jquery-1.11.2.js"></script>
     <script src="js/scripts.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic' rel='stylesheet' type='text/css'>
-    <title>Triangle Typer</title>
+    <title>Trianglulator</title>
   </head>
   <body>
     <div class="container">
       <div class="page-header">
-        <h1>Triangle Typer<small> find out what type of triangle you have.</small></h1>
+        <h1>Trianglulator<small> find out what type of triangle you have.</small></h1>
       </div>
 
       <form id="triangle">
         <div class="form-group">
-          <label for="side1">Enter the length of the first side:</label>
+          <label for="side1">Length of the first side:</label>
           <input id="side1" type="text" placeholder="eg. 6">
         </div>
         <div class="form-group">
-          <label for="side2">Enter the length of the second side:</label>
+          <label for="side2">Length of the second side:</label>
           <input id="side2" type="text" placeholder="eg. 3">
         </div>
         <div class="form-group">
-          <label for="side3">Enter the length of the third side:</label>
+          <label for="side3">Length of the third side:</label>
           <input id="side3" type="text" placeholder="eg. 10">
         </div>
-        <button id ="submit-btn" type="submit" class="btn btn-md btn-danger"><span class="glyphicon glyphicon-triangle-top"></span></button>
+        <button id ="submit-btn" type="submit" class="btn btn-md btn-success"><span class="glyphicon glyphicon-triangle-top"></span></button>
       </form>
-
+      <br>
+      <br>
       <div id="result">
-        <p>You have inputted <span class="side1"></span> for the first side, <span class="side2"></span> for the second side and <span class="side3"></span> for the third side.</p><br>
-        <p>You are looking at a <span class="results"></span>! Congratulations, you just melted Pythagoras's sweet, little heart.</p>
+        <p>You have inputted <span class="side1"></span>, <span class="side2"></span>, and <span class="side3"></span>.</p>
+        <h4>The winner is: <strong><span class="results"></span></strong>!</h4>
+        <p>Congratulations, you just melted Pythagoras's sweet, little heart.</p>
       </div>
     </div>
   </body>

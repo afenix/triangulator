@@ -10,12 +10,13 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 100% 100%;
+  background-color: #4A3A47;
 }
 
 .container {
-  background-color: #E4E4E4;
+  background-color: #E7E1C9;
   margin-top: 5%;
-  width: 800px;
+  width: 500px;
   height: 550px;
   margin-left: auto;
   padding: 15px;
@@ -26,7 +27,11 @@ body {
 h1 {
   color: #006151;
   text-align: center;
+}
 
+h4 {
+  color: #006151;
+  text-align: center;
 }
 
 p {
@@ -35,22 +40,10 @@ p {
 
 .form-group {
   margin-left: 23px;
+  width: 100%;
 }
 
 #submit-btn {
-  margin-left: auto;
-  /*float:right;*/
-
-}
-
-#reset {
-  float:right;
-  margin-right: 150px;
-}
-
-}
-
-input[type=text]{
-  border-radius:10px;
-  width: 500px; /* changes the input field size! */
+  float: right;
+  padding-right: 1em;
 }

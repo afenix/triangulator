@@ -1,12 +1,12 @@
 var triangleType = function(side1, side2, side3) {
   if (side1 + side2 < side3 || side1 + side3 < side2 || side2 + side3 < side1) {
-    var results = "Not a triangle";
+    var results = "not a triangle";
   } else if (side1 === side2 && side2 === side3) {
-    var results = "Equilateral triangle";
+    var results = "equilateral triangle";
   } else if (side1 === side2 || side1 === side3 || side2 === side3) {
-    var results = "Scalene triangle";
+    var results = "scalene triangle";
   } else {
-    var results = "Isosceles triangle";
+    var results = "isosceles triangle";
   }
 
   return results;
