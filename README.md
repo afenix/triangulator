@@ -15,7 +15,7 @@ $ git clone http://github.com/afenix/triangulator
 Copy the files into a new shiny directory.  Double click on triangleType.html and get to ready to triangulate!
 
 ###Contribute
-```
+
 Issue Tracker: github.com/afenix/triangulator
 
 Source Code: github.com/afenix/triangulator
@@ -25,5 +25,5 @@ Source Code: github.com/afenix/triangulator
 This app is a work in progress.  By no means is it complete. However, if you are having issues please let me know at: a.fenix@icloud.com
 
 ###License
-```
+
 Free and OS License. Code for the people by the people. 2015 Alister Fenix
