@@ -1,5 +1,6 @@
 #result {
   display: none;
+  text-align: left !important;
 }
 
 body {
@@ -20,7 +21,6 @@ body {
   padding: 15px;
   border: solid #007B66;
   border-radius: 10px;
-
 }
 
 h1 {
@@ -52,5 +52,5 @@ p {
 
 input[type=text]{
   border-radius:10px;
-  width: 250px; /* changes the input field size! */
+  width: 500px; /* changes the input field size! */
 }

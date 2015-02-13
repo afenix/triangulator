@@ -8,5 +8,23 @@ var triangleType = function(side1, side2, side3) {
   } else {
     var results = "Isosceles triangle";
   }
+
   return results;
 };
+
+$(document).ready(function() {
+  $("form#triangle").submit(function(event) {
+    var side1 = parseInt($("input#side1").val());
+    var side2 = parseInt($("input#side2").val());
+    var side3 = parseInt($("input#side3").val());
+    var results = triangleType(side1, side2, side3);
+
+    $(".side1").text(side1);
+    $(".side2").text(side2);
+    $(".side3").text(side3);
+    $(".results").text(results);
+
+    $("#result").show();
+    event.preventDefault();
+  });
+});

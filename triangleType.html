@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.2.js"></script>
-    <script src="js/triangleType.js"></script>
+    <script src="js/scripts.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic' rel='stylesheet' type='text/css'>
     <title>Triangle Typer</title>
   </head>
@@ -13,10 +13,11 @@
       <div class="page-header">
         <h1>Triangle Typer<small> find out what type of triangle you have.</small></h1>
       </div>
-      <form id="triangle-form">
+
+      <form id="triangle">
         <div class="form-group">
           <label for="side1">Enter the length of the first side:</label>
-          <input type="text" id="side1" placeholder="eg. 6">
+          <input id="side1" type="text" placeholder="eg. 6">
         </div>
         <div class="form-group">
           <label for="side2">Enter the length of the second side:</label>
@@ -30,7 +31,8 @@
       </form>
 
       <div id="result">
-        <p>You are looking at a <span class="triangle"> </span> triangle! Congratulations, you just melted Pythagoras's sweet, little heart.</p>
+        <p>You have inputted <span class="side1"></span> for the first side, <span class="side2"></span> for the second side and <span class="side3"></span> for the third side.</p><br>
+        <p>You are looking at a <span class="results"></span>! Congratulations, you just melted Pythagoras's sweet, little heart.</p>
       </div>
     </div>
   </body>
