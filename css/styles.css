@@ -1,20 +1,19 @@
 #result {
   display: none;
-  text-align: left !important;
 }
 
 body {
-  font-family: 'Noto Serif', 'serif';
-  background: url('/img/triangle_spiral.png') no-repeat center center fixed;
+  font-family: 'Montserrat', sans-serif;
+  background: url('../img/triangle-landscape.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 100% 100%;
-  background-color: #4A3A47;
 }
 
 .container {
-  background-color: #E7E1C9;
+  background-color: #F4EAD5;
+  opacity: 0.85;
   margin-top: 5%;
   width: 500px;
   height: 550px;
@@ -27,15 +26,18 @@ body {
 h1 {
   color: #006151;
   text-align: center;
+  font-family: 'Play', sans-serif;
 }
 
-h4 {
+h3 {
   color: #006151;
   text-align: center;
+  font-family: 'Play', sans-serif;
 }
 
 p {
   text-align: center;
+  font-family: 'Play', sans-serif;
 }
 
 .form-group {
@@ -46,4 +48,13 @@ p {
 #submit-btn {
   float: right;
   padding-right: 1em;
+  margin-right: 30px;
+}
+
+#submit-btn + label {
+  float: right;
+}
+
+input {
+  width: 50px;
 }
