@@ -9,5 +9,9 @@ describe("triangleType", function() {
 
   it("will determine if all sides are equal to each other", function() {
     expect(triangleType(5, 5, 5)).to.equal("Equilateral triangle");
-  })
+  });
+
+  it("will determine if no sides are equal to each other in the form of a isosceles triangle", function() {
+    expect(triangleType(3, 4, 6)).to.equal("Isosceles triangle");
+  });
 });

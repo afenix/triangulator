@@ -6,7 +6,7 @@ var triangleType = function(side1, side2, side3) {
   } else if (side1 === side2 || side1 === side3 || side2 === side3) {
     var results = "Scalene triangle";
   } else {
-    return false;
+    var results = "Isosceles triangle";
   }
   return results;
 };
