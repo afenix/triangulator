@@ -1,12 +1,17 @@
 var triangleType = function(side1, side2, side3) {
+
+  if (isNaN(side1) || isNaN(side2) || isNaN(side3)){
+    return "ERROR: You must input three sides";
+  }
+
   if (side1 + side2 < side3 || side1 + side3 < side2 || side2 + side3 < side1) {
-    var results = "not a triangle";
+    var results = "Not a triangle";
   } else if (side1 === side2 && side2 === side3) {
-    var results = "equilateral triangle";
+    var results = "Equilateral triangle";
   } else if (side1 === side2 || side1 === side3 || side2 === side3) {
-    var results = "scalene triangle";
+    var results = "Isosceles triangle";
   } else {
-    var results = "isosceles triangle";
+    var results = "Scalene triangle";
   }
 
   return results;

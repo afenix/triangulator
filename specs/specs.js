@@ -4,7 +4,7 @@ describe("triangleType", function() {
   });
 
   it("will determine if any two sides are equal to each other", function() {
-    expect(triangleType(3, 3, 5)).to.equal("Scalene triangle");
+    expect(triangleType(3, 3, 5)).to.equal("Isosceles triangle");
   });
 
   it("will determine if all sides are equal to each other", function() {
@@ -12,6 +12,6 @@ describe("triangleType", function() {
   });
 
   it("will determine if no sides are equal to each other in the form of a isosceles triangle", function() {
-    expect(triangleType(3, 4, 6)).to.equal("Isosceles triangle");
+    expect(triangleType(3, 4, 6)).to.equal("Scalene triangle");
   });
 });
