@@ -11,7 +11,11 @@ describe("triangleType", function() {
     expect(triangleType(5, 5, 5)).to.equal("Equilateral triangle");
   });
 
-  it("will determine if no sides are equal to each other in the form of a isosceles triangle", function() {
+  it("will determine if no sides are equal to each other in the form of a scalene triangle", function() {
     expect(triangleType(3, 4, 6)).to.equal("Scalene triangle");
   });
+
+  it("will not allow NaN to be a valid input in the form", function() {
+    expect(triangleType(NaN, 3, 7)).to.equal("ERROR: You must input three sides");
+  });S
 });
