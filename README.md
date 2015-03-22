@@ -7,7 +7,6 @@ This app informs the user what type of triangle they have created after entering
 
 ##Installation
 
-
 Install triangulator by first cloning the repository.  
 
 $ git clone http://github.com/afenix/triangulator
